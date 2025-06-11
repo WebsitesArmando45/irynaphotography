@@ -15,14 +15,14 @@ const Portfolio = () => {
       category: 'business',
       image: '/assets/Scherm_afbeelding 2025-06-09 om 15.19.45.png',
       title: 'Foto van tempel',
-      description: 'Levensmomenten'
+      description: 'Levensmoment'
     },
     {
       id: 3,
       category: 'events',
       image: '/assets/Scherm_afbeelding 2025-06-09 om 15.20.18.png',
-      title: 'Foto van tempel',
-      description: 'Levensmomenten'
+      title: 'Foto op evenement',
+      description: 'Levensmoment'
     },
     {
       id: 4,
