@@ -14,8 +14,8 @@ const Portfolio = () => {
       id: 2,
       category: 'business',
       image: '/assets/Scherm_afbeelding 2025-06-09 om 15.19.45.png',
-      title: 'Bedrijfsfotografie',
-      description: 'Corporate fotografie'
+      title: 'Foto van tempel',
+      description: 'Levensmomenten'
     },
     {
       id: 3,
