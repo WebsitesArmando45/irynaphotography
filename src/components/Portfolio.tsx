@@ -78,7 +78,7 @@ const Portfolio = () => {
       category: 'lifestyle',
       image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.34.png',
       title: 'Lifestyle Fotografie',
-      description: 'Spontane levensmomenten'
+      description: 'Natuur foto'
     },
     {
       id: 12,
