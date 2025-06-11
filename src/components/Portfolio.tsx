@@ -63,8 +63,8 @@ const Portfolio = () => {
       id: 9,
       category: 'family',
       image: '/assets/IMG_9409 (1).JPG',
-      title: 'Familie Portret',
-      description: 'Liefdevolle familiemomenten'
+      title: 'Foto iryna',
+      description: 'Spontane foto'
     },
     {
       id: 10,
