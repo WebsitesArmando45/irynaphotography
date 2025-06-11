@@ -21,8 +21,8 @@ const Portfolio = () => {
       id: 3,
       category: 'events',
       image: '/assets/Scherm_afbeelding 2025-06-09 om 15.20.18.png',
-      title: 'Bruiloft Ceremonie',
-      description: 'Emotionele momenten'
+      title: 'Foto van tempel',
+      description: 'Levensmomenten'
     },
     {
       id: 4,
