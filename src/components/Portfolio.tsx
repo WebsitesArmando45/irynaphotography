@@ -50,7 +50,7 @@ const Portfolio = () => {
       category: 'family',
       image: '/assets/A578FC92-58EB-4BAD-8D97-39FA1148FB8C (1).JPG',
       title: 'Familie Moment',
-      description: 'Natuurlijke familiefoto\'s'
+      description: 'Zonsondergang'
     },
     {
       id: 8,
