@@ -35,8 +35,8 @@ const Portfolio = () => {
       id: 5,
       category: 'events',
       image: '/assets/Scherm_afbeelding 2025-06-09 om 15.21.37.png',
-      title: 'Event Fotografie',
-      description: 'Dynamische evenementen'
+      title: 'Casual lunch foto',
+      description: 'Levensmoment'
     },
     {
       id: 6,
