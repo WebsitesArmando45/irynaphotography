@@ -84,8 +84,8 @@ const Portfolio = () => {
       id: 12,
       category: 'portrait',
       image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.50.png',
-      title: 'Persoonlijk Portret',
-      description: 'Individuele karakterfotografie'
+      title: 'Liefde voor bloemen',
+      description: 'Natuur foto'
     }
   ];
 
