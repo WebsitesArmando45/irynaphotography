@@ -99,8 +99,8 @@ const About = () => {
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">5+</div>
-                  <div className="text-sm text-gray-600">Jaar ervaring</div>
+                  <div className="text-2xl font-bold text-gray-900">Liefde</div>
+                  <div className="text-sm text-gray-600">voor foto's</div>
                 </div>
               </div>
             </div>
