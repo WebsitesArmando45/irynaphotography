@@ -34,7 +34,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Van intiem tot groots - Iryna legt het vast zoals het voelt. 
+            Van intiem tot groots Iryna legt het vast zoals het voelt. 
             Professionele foto en videodiensten voor elke gelegenheid.
           </p>
 
