@@ -62,7 +62,7 @@ const Portfolio = () => {
     {
       id: 9,
       category: 'family',
-      image: '/assets/IMG_9409 (1).JPG',
+      image: 'public/assets/IMG_9409 (1).JPG',
       title: 'Foto iryna',
       description: 'Spontane foto'
     },
