@@ -76,7 +76,7 @@ const Portfolio = () => {
     {
       id: 11,
       category: 'lifestyle',
-      image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.34.png',
+      image: 'public/assets/Scherm_afbeelding 2025-06-10 om 17.41.34.png',
       title: 'Lifestyle Fotografie',
       description: 'Natuur foto'
     },
