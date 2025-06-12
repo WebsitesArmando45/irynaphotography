@@ -41,7 +41,7 @@ const Portfolio = () => {
     {
       id: 6,
       category: 'portrait',
-      image: '/assets/7D2AE995-FE1D-475B-A96A-2DB75C3AD620 (1).JPG',
+      image: 'public/assets/7D2AE995-FE1D-475B-A96A-2DB75C3AD620 (1).JPG',
       title: 'Foto van zee',
       description: 'Natuur foto'
     },
