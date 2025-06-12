@@ -1,34 +1,7 @@
 import React from 'react';
-import { Award, Camera, Heart, Star, MapPin, Calendar } from 'lucide-react';
+import { MapPin, Calendar } from 'lucide-react';
 
 const About = () => {
-  const achievements = [
-    {
-      icon: Award,
-      title: '500+ Projecten',
-      description: 'Succesvol afgerond',
-      gradient: 'from-purple-500 to-purple-600'
-    },
-    {
-      icon: Star,
-      title: '5 Jaar Ervaring',
-      description: 'In foto & video',
-      gradient: 'from-amber-500 to-orange-600'
-    },
-    {
-      icon: Heart,
-      title: '100% Tevredenheid',
-      description: 'Van alle klanten',
-      gradient: 'from-pink-500 to-rose-600'
-    },
-    {
-      icon: Camera,
-      title: 'Professionele Uitrusting',
-      description: 'Nieuwste technologie',
-      gradient: 'from-blue-500 to-indigo-600'
-    }
-  ];
-
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -84,11 +57,10 @@ const About = () => {
             </div>
           </div>
 
-          {/* Image & Stats */}
-          <div className="space-y-8">
-            {/* Profile Image */}
+          {/* Image */}
+          <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
+              <div className="aspect-[4/5] w-full max-w-md rounded-3xl overflow-hidden shadow-2xl">
                 <img
                   src="public/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png"
                   alt="Iryna - Professional Photographer"
@@ -103,29 +75,6 @@ const About = () => {
                   <div className="text-sm text-gray-600">met passie</div>
                 </div>
               </div>
-            </div>
-
-            {/* Achievements Grid */}
-            <div className="grid grid-cols-2 gap-4">
-              {achievements.map((achievement, index) => {
-                const Icon = achievement.icon;
-                return (
-                  <div
-                    key={index}
-                    className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100"
-                  >
-                    <div className={`w-12 h-12 bg-gradient-to-br ${achievement.gradient} rounded-xl flex items-center justify-center mb-4`}>
-                      <Icon className="w-6 h-6 text-white" />
-                    </div>
-                    <h4 className="font-bold text-gray-900 mb-1 text-sm">
-                      {achievement.title}
-                    </h4>
-                    <p className="text-gray-600 text-xs">
-                      {achievement.description}
-                    </p>
-                  </div>
-                );
-              })}
             </div>
           </div>
         </div>
