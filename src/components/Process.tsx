@@ -76,7 +76,7 @@ const Process = () => {
         {/* Process Steps */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
           {steps.map((step, index) => {
-            const IconComponent = step.icon;
+            const Icon = step.icon;
             return (
               <div
                 key={index}
@@ -84,26 +84,26 @@ const Process = () => {
               >
                 {/* Connection Line */}
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-16 left-full w-full h-0.5 bg-gradient-to-r from-gray-200 to-gray-300 transform translate-x-4 -translate-y-1/2 z-0" />
+                  <div className="hidden lg:block absolute top-16 left-full w-full h-0.5 bg-gradient-to-r from-gray-200 to-transparent z-0" />
                 )}
                 
-                <div className="relative z-10 bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+                <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 z-10">
                   {/* Step Number */}
-                  <div className="text-6xl font-bold text-gray-100 absolute top-4 right-6 select-none">
+                  <div className="text-6xl font-bold text-gray-100 absolute top-4 right-4 select-none">
                     {step.number}
                   </div>
                   
                   {/* Icon */}
                   <div className={`w-16 h-16 bg-gradient-to-br ${step.gradient} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10`}>
-                    <IconComponent className="w-8 h-8 text-white" />
+                    <Icon className="w-8 h-8 text-white" />
                   </div>
                   
                   {/* Content */}
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors relative z-10">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors">
                     {step.title}
                   </h3>
                   
-                  <p className="text-gray-600 leading-relaxed relative z-10">
+                  <p className="text-gray-600 leading-relaxed">
                     {step.description}
                   </p>
                 </div>
@@ -116,11 +116,11 @@ const Process = () => {
         <div className="bg-gradient-to-br from-purple-50 to-amber-50 rounded-3xl p-8 md:p-12 border border-purple-100">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => {
-              const IconComponent = stat.icon;
+              const Icon = stat.icon;
               return (
                 <div key={index} className="text-center group">
                   <div className={`w-16 h-16 bg-gradient-to-br ${stat.gradient} rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                    <IconComponent className="w-8 h-8 text-white" />
+                    <Icon className="w-8 h-8 text-white" />
                   </div>
                   <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
                     {stat.value}

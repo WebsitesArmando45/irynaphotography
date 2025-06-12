@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Camera, Video } from 'lucide-react';
+import { Menu, X, Camera } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ const Header = () => {
     { name: 'Diensten', href: '#services' },
     { name: 'Werkwijze', href: '#process' },
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Over Iryna', href: '#about' },
+    { name: 'Over mij', href: '#about' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -49,7 +49,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -64,19 +64,19 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden lg:block">
+          <div className="hidden md:block">
             <a
               href="#contact"
               className="bg-gradient-to-r from-purple-600 to-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-700 hover:to-amber-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              Plan Gesprek
+              Plan gesprek
             </a>
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
+            className={`md:hidden p-2 rounded-lg transition-colors ${
               isScrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/10'
             }`}
           >
@@ -86,27 +86,25 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl rounded-b-2xl border-t border-gray-100">
-            <nav className="py-6">
+          <div className="md:hidden bg-white/95 backdrop-blur-md rounded-2xl mt-4 p-6 shadow-xl">
+            <nav className="space-y-4">
               {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="block px-6 py-3 text-gray-700 font-medium hover:bg-purple-50 hover:text-purple-600 transition-colors"
+                  className="block text-gray-700 font-medium hover:text-purple-600 transition-colors"
                 >
                   {item.name}
                 </a>
               ))}
-              <div className="px-6 pt-4">
-                <a
-                  href="#contact"
-                  onClick={() => setIsMenuOpen(false)}
-                  className="block w-full text-center bg-gradient-to-r from-purple-600 to-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-700 hover:to-amber-600 transition-all duration-300"
-                >
-                  Plan Gesprek
-                </a>
-              </div>
+              <a
+                href="#contact"
+                onClick={() => setIsMenuOpen(false)}
+                className="block w-full text-center bg-gradient-to-r from-purple-600 to-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-700 hover:to-amber-600 transition-all duration-300 mt-6"
+              >
+                Plan gesprek
+              </a>
             </nav>
           </div>
         )}
