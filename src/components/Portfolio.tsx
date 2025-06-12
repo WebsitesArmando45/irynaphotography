@@ -55,7 +55,7 @@ const Portfolio = () => {
     {
       id: 8,
       category: 'events',
-      image: '/assets/IMG_0612 (1).JPG',
+      image: 'public/assets/IMG_0612 (1).JPG',
       title: 'Speciale Gelegenheid',
       description: 'Portret van kind'
     },
