@@ -41,49 +41,49 @@ const Portfolio = () => {
     {
       id: 6,
       category: 'portrait',
-      image: 'public/assets/7D2AE995-FE1D-475B-A96A-2DB75C3AD620 (1).JPG',
+      image: '/assets/7D2AE995-FE1D-475B-A96A-2DB75C3AD620 (1).JPG',
       title: 'Foto van zee',
       description: 'Natuur foto'
     },
     {
       id: 7,
       category: 'family',
-      image: 'public/assets/A578FC92-58EB-4BAD-8D97-39FA1148FB8C (1).JPG',
+      image: '/assets/A578FC92-58EB-4BAD-8D97-39FA1148FB8C (1).JPG',
       title: 'Familie Moment',
       description: 'Zonsondergang'
     },
     {
       id: 8,
       category: 'events',
-      image: 'public/assets/IMG_0612 (1).JPG',
+      image: '/assets/IMG_0612 (1).JPG',
       title: 'Speciale Gelegenheid',
       description: 'Portret van kind'
     },
     {
       id: 9,
       category: 'family',
-      image: 'public/assets/IMG_9409 (1).JPG',
+      image: '/assets/IMG_9409 (1).JPG',
       title: 'Foto iryna',
       description: 'Spontane foto'
     },
     {
       id: 10,
       category: 'portrait',
-      image: 'public/assets/Scherm_afbeelding 2025-06-10 om 17.41.07.png',
+      image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.07.png',
       title: 'Natuurlijk Portret',
       description: 'Authentieke portretfotografie'
     },
     {
       id: 11,
       category: 'lifestyle',
-      image: 'public/assets/Scherm_afbeelding 2025-06-10 om 17.41.34.png',
+      image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.34.png',
       title: 'Lifestyle Fotografie',
       description: 'Natuur foto'
     },
     {
       id: 12,
       category: 'portrait',
-      image: 'public/assets/Scherm_afbeelding 2025-06-10 om 17.41.50.png',
+      image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.50.png',
       title: 'Liefde voor bloemen',
       description: 'Natuur foto'
     }

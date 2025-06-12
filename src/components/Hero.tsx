@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="public/assets/4lab.gif"
+          src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
           alt="Professional Photography"
           className="w-full h-full object-cover"
         />
@@ -34,7 +34,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Van intiem tot groots Iryna legt het vast zoals het voelt. 
+            Van intiem tot groots - Iryna legt het vast zoals het voelt. 
             Professionele foto en videodiensten voor elke gelegenheid.
           </p>
 
@@ -56,6 +56,33 @@ const Hero = () => {
               <span>Bekijk mijn werk</span>
             </a>
           </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-white/20">
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
+              <div className="text-white/70">Tevreden klanten</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">5+</div>
+              <div className="text-white/70">Jaar ervaring</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">24h</div>
+              <div className="text-white/70">Reactietijd</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">100%</div>
+              <div className="text-white/70">Tevredenheid</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse" />
         </div>
       </div>
     </section>
