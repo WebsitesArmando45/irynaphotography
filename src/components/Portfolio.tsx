@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       id: 3,
       category: 'events',
-      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.20.18.png',
+      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.20.18.png',
       title: 'Foto op evenement',
       description: 'Levensmoment'
     },
