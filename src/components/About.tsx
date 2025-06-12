@@ -90,7 +90,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&fit=crop"
+                  src="public/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png"
                   alt="Iryna - Professional Photographer"
                   className="w-full h-full object-cover"
                 />
