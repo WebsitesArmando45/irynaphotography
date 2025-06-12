@@ -69,7 +69,7 @@ const Portfolio = () => {
     {
       id: 10,
       category: 'portrait',
-      image: '/assets/Scherm_afbeelding 2025-06-10 om 17.41.07.png',
+      image: 'public/assets/IMG_9409 (1).JPG',
       title: 'Natuurlijk Portret',
       description: 'Authentieke portretfotografie'
     },
