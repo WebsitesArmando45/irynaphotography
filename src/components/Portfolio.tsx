@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       id: 1,
       category: 'portrait',
-      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png',
+      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png',
       title: 'Professioneel Portret',
       description: 'Foto van iryna'
     },
