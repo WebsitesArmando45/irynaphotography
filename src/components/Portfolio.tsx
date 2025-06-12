@@ -13,7 +13,7 @@ const Portfolio = () => {
     {
       id: 2,
       category: 'business',
-      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.19.45.png',
+      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.19.45 (1).png',
       title: 'Foto van tempel',
       description: 'Levensmoment'
     },
