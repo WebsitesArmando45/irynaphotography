@@ -34,7 +34,7 @@ const Portfolio = () => {
     {
       id: 5,
       category: 'events',
-      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.21.37.png',
+      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.21.37.png',
       title: 'Casual lunch foto',
       description: 'Levensmoment'
     },
