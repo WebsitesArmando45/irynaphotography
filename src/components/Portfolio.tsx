@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 4,
       category: 'portrait',
-      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.20.49.png',
+      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.20.49.png',
       title: 'Portret van klassiek gebouw',
       description: 'Geschiedenis'
     },
