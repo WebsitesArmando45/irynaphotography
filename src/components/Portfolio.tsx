@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
 const Portfolio = () => {
@@ -123,7 +122,7 @@ const Portfolio = () => {
                 src={item.image}
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                onError={(e) => handleImageError(e, item.fallback)}
+                onError={(e) => handleImageError(e)}
                 loading="lazy"
               />
               
