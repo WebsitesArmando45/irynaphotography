@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageCircle, Calendar, Camera, Sparkles, Clock, Eye, CheckCircle, Heart } from 'lucide-react';
 
 const Process = () => {

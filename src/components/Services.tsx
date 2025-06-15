@@ -1,4 +1,3 @@
-import React from 'react';
 import { Camera, Video, Users, Building, Heart, GraduationCap, Package, Briefcase } from 'lucide-react';
 
 const Services = () => {
