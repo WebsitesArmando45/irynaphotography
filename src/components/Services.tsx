@@ -1,4 +1,4 @@
-import { Camera, Video, Users, Building, Heart, GraduationCap, Package, Briefcase } from 'lucide-react';
+import { Camera, Video, Users, Heart, GraduationCap, Package, Briefcase } from 'lucide-react';
 
 const Services = () => {
   const services = [

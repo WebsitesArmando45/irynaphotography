@@ -5,35 +5,35 @@ const Portfolio = () => {
     {
       id: 1,
       category: 'portrait',
-      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png',
+      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png',
       title: 'Professioneel Portret',
       description: 'Foto van iryna'
     },
     {
       id: 2,
       category: 'business',
-      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.19.45 (1).png',
+      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.19.45 (1).png',
       title: 'Foto van tempel',
       description: 'Levensmoment'
     },
     {
       id: 3,
       category: 'events',
-      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.20.18.png',
+      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.20.18.png',
       title: 'Foto op evenement',
       description: 'Levensmoment'
     },
     {
       id: 4,
       category: 'portrait',
-      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.20.49.png',
+      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.20.49.png',
       title: 'Portret van klassiek gebouw',
       description: 'Geschiedenis'
     },
     {
       id: 5,
       category: 'events',
-      image: 'public/assets/Scherm_afbeelding 2025-06-09 om 15.21.37.png',
+      image: '/assets/Scherm_afbeelding 2025-06-09 om 15.21.37.png',
       title: 'Casual lunch foto',
       description: 'Levensmoment'
     },
@@ -88,14 +88,10 @@ const Portfolio = () => {
     }
   ];
 
-  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>, fallback?: string) => {
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     const target = e.target as HTMLImageElement;
-    if (fallback) {
-      target.src = fallback;
-    } else {
-      // Default fallback for professional photography
-      target.src = 'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop';
-    }
+    // Default fallback for professional photography
+    target.src = 'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop';
   };
 
   return (
@@ -122,7 +118,7 @@ const Portfolio = () => {
                 src={item.image}
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                onError={(e) => handleImageError(e)}
+                onError={handleImageError}
                 loading="lazy"
               />
               

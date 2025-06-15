@@ -61,7 +61,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-[4/5] w-full max-w-md rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="public/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png"
+                  src="/assets/Scherm_afbeelding 2025-06-09 om 15.22.05.png"
                   alt="Iryna - Professional Photographer"
                   className="w-full h-full object-cover"
                 />
@@ -70,7 +70,7 @@ const About = () => {
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">Foto's</div>
+                  <div className="text-2xl font-bold text-gray-900">Foto&apos;s</div>
                   <div className="text-sm text-gray-600">met passie</div>
                 </div>
               </div>
